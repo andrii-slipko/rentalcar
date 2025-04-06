@@ -1,0 +1,36 @@
+.header {
+    border-bottom: 1px solid #f2f4f7;
+padding: 24px 120px;
+background-color: #f2f4f7;
+}
+
+.navBox {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.navigation {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.nav {
+    font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+color: #101828;
+text-decoration: none;
+}
+
+.nav:focus {
+    color: #0B44CD;
+}
+
+.nav:active {
+    color: #0B44CD;
+}

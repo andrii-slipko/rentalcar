@@ -1,0 +1,110 @@
+.img {
+    width: 640px;
+height: 512px;
+top: 152px;
+left: 120px;
+border-radius: 18.74px;
+margin-bottom: 40px;
+}
+
+.title {
+    font-family: Manrope;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+color: #101828;
+}
+
+.id {
+    font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #8D929A;
+margin-top: 26px;
+}
+
+.desc {
+    font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #101828;
+}
+
+.description {
+    font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #101828;
+margin-bottom: 68px;
+}
+
+.price {
+    font-family: Manrope;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+color: #3470FF;
+margin-bottom: 32px;
+}
+
+.h3 {
+    font-family: Manrope;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #101828;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    margin-top: 84px;
+    gap: 72px;
+justify-content: center;
+}
+
+.div1 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: start;
+    margin-bottom: 8px;
+}
+
+.div2 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    justify-content: start;
+    margin-bottom: 16px;
+}
+
+.list {
+    list-style: none;
+    font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #101828;
+display: flex;
+flex-direction: column;
+gap: 16px;
+margin-left: 0px;
+padding-left: 0px;
+}
+
+.descDiv {
+    margin-bottom: 110px;
+    gap: 20px;
+}

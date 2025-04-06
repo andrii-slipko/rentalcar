@@ -1,0 +1,83 @@
+.select {
+    width: 204;
+    border-radius: 12px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    gap: 32px;
+    font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #101828;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 84px;
+    gap: 16px;
+    align-items: center;
+    margin-bottom: 56px;
+}
+
+.placeholder {
+    font-family: Manrope;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #8D929A;
+}
+
+.mileageL {
+    width: 160;
+height: 44;
+border-right-width: 1px;
+border-top-left-radius: 12px;
+border-bottom-left-radius: 12px;
+border-right: 1px solid #DADDE1;
+background-color: #F7F7F7;
+height: 44px;
+}
+
+.mileageR {
+    width: 160;
+height: 44;
+left: 160px;
+border-top-right-radius: 12px;
+border-bottom-right-radius: 12px;
+background-color: #F7F7F7;
+height: 44px;
+}
+
+.mileage {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    width: 156px;
+    height: 44px;
+border-radius: 12px;
+padding-right: 51px;
+padding-left: 51px;
+background-color: #3470FF;
+font-family: Manrope;
+font-weight: 600;
+font-size: 16px;
+color: white;
+margin-top: 20px;
+cursor: pointer;
+}

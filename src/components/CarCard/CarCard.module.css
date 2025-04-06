@@ -1,0 +1,67 @@
+.card {
+    width: 276px;
+height: 424px;
+gap: 28px;
+}
+
+.img {
+    width: 276px;
+height: 268px;
+border-radius: 14px;
+
+}
+
+.carTitle1 {
+    font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #101828;
+}
+
+.carTitle2 {
+    color: #3470FF;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.price {
+    font-family: Manrope;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+vertical-align: middle;
+color: #101828;
+}
+
+.description {
+    font-family: Manrope;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0%;
+color: #8D929A;
+}
+
+.btn {
+    width: 276px;
+height: 44px;
+border-radius: 12px;
+padding-top: 12px;
+padding-bottom: 12px;
+background-color: #3470FF;
+font-family: Manrope;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: white;
+cursor: pointer;
+}

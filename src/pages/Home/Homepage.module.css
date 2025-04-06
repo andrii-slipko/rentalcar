@@ -1,0 +1,51 @@
+.homeContainer {
+    background-image: url('../../assets/Picture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-family: Manrope;
+font-weight: 700;
+font-size: 60px;
+line-height: 72px;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+color: #FFFFFF;
+margin-top: 436px;
+}
+
+.text {
+    font-family: Manrope;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+color: #FFFFFF;
+}
+
+.btn {
+    width: 276;
+height: 44;
+border-radius: 12px;
+padding-top: 12px;
+padding-right: 99px;
+padding-bottom: 12px;
+padding-left: 99px;
+background-color: #3470FF;
+font-family: Manrope;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 0%;
+color: #FFFFFF;
+cursor: pointer;
+}
