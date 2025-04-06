@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { loadCars } from '../../redux/carsSlice';
 import CarCard from '../../components/CarCard/CarCard';
@@ -9,19 +9,10 @@ const CatalogPage = () => {
   const dispatch = useDispatch();
   const { cars, status, error } = useSelector((state) => state.cars);
   const { filteredCars } = useSelector((state) => state.filters);
-  
-  const [page, setPage] = useState(1);
-  const [loading, setLoading] = useState(false);
-  const limit = 15; 
 
   useEffect(() => {
-    dispatch(loadCars({ page, limit })); 
-  }, [dispatch, page]);
-
-  const handleLoadMore = () => {
-    setLoading(true);  
-    setPage(prev => prev + 1);  
-  };
+    dispatch(loadCars());  
+  }, [dispatch]);
 
   if (status === "loading") return <p>Loading...</p>;
   if (status === "failed") return <p>Error: {error}</p>;
@@ -37,13 +28,6 @@ const CatalogPage = () => {
         ) : (
           <p>No cars found</p>
         )}
-      </div>
-
-      
-      <div className={styles.loadMoreContainer}>
-        <button onClick={handleLoadMore} disabled={loading} className={styles.btn}>
-          {loading ? 'Loading...' : 'Load More'}
-        </button>
       </div>
     </div>
   );

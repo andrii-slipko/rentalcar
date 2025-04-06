@@ -32,17 +32,29 @@ const Filter = () => {
         <label htmlFor="brand" className={styles.placeholder}>Car brand</label>
       <select className={styles.select} name="brand" value={brand} onChange={handleInputChange}>
         <option value="">Choose a brand</option>
+        <option value="Aston Martin">Aston Martin</option>
+        <option value="Audi">Audi</option>
+        <option value="BMW">BMW</option>
+        <option value="Bentley">Bentley</option>
         <option value="Buick">Buick</option>
-        <option value="Volvo">Volvo</option>
+        <option value="Chevrolet">Chevrolet</option>
+        <option value="Crysler">Crysler</option>
+        <option value="GMC">GMC</option>
         <option value="HUMMER">HUMMER</option>
-        <option value="Subaru">Subaru</option>
+        <option value="Hyundai">Hyundai</option>
+        <option value="Kia">Kia</option>
+        <option value="Lamborghini">Lamborghini</option>
+        <option value="Land Rover">Land Rover</option>
+        <option value="Lamborghini">Lamborghini</option>
+        <option value="Lincoln">Lincoln</option>
+        <option value="MINI">MINI</option>
+        <option value="Mercedes-Benz">Mercedes-Benz</option>
         <option value="Mitsubishi">Mitsubishi</option>
         <option value="Nissan">Nissan</option>
-        <option value="Lincoln">Lincoln</option>
-        <option value="GMC">GMC</option>
-        <option value="Hyundai">Hyundai</option>
-        <option value="MINI">MINI</option>
-        <option value="Bentley">Bentley</option>
+        <option value="Pontiac">Pontiac</option>
+        <option value="Subaru">Subaru</option>
+        <option value="Volvo">Volvo</option>
+        
       </select>
       </div>
 

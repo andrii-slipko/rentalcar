@@ -1,4 +1,4 @@
-import { createSlice } from '@reduxjs/toolkit'; // Імпорт createSlice
+import { createSlice } from '@reduxjs/toolkit'; 
 
 const initialState = {
   brand: "",
